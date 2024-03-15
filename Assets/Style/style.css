@@ -9,6 +9,7 @@ body{
     background-color: rgba(18, 18, 18, 1);
     /* background-image: linear-gradient(to left, rgba(18, 18, 18, 1),rgba(18, 18, 18, 0.75),  rgba(18, 18, 18, 0)); */
     background-image: url('../images/bg-image.png');
+    overflow-x: hidden;
 }
 
 .container{
@@ -20,6 +21,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 
 
     .card{
