@@ -42,7 +42,8 @@ eForm.addEventListener('submit', function(event) {
     localStorage.setItem('bd', birthdayString);
     localStorage.setItem('rm', sRememberMe.checked);
 
-    window.location.href = '../SignedIn/index.html';
+    console.log('Form submitted');
+    window.location.href = 'SignedIn/index.html';
 
 });
 
